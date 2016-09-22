@@ -23,3 +23,21 @@ end
 print reverse3([1, 2, 3])
 print reverse3([5, 11, 9])
 print reverse3([7, 0, 0])
+
+
+def middleWay(a1, a2)
+  return [a1[1], a2[1]]
+end
+
+print middleWay([1, 2, 3], [4, 5, 6])
+print middleWay([7, 7, 7], [3, 8, 0])
+print middleWay([5, 2, 9], [1, 4, 5])
+
+
+def no23?(set)
+  !(set.include?(2) || set.include?(3))
+end
+
+print no23?([4, 5])
+print no23?([4, 2])
+print no23?([3, 5])
